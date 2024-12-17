@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+header{
+    background: #333;
+    color: white;
+    padding: 20px 0;
+}
+header .container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1{
+    font-size: 2.5rem;
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    display: inline;
+    margin-left: 20px;
+}
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+  margin-left: 100px;
+}
+
+
+#home {
+    background: url(/sunset-1645103_1280.jpg) no-repeat center center/cover;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+.hero-image h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.hero-image p {
+    font-size: 1.5rem;
+}
+
+#Destinations {
+padding: 50px 0;
+text-align: center;
+}
+#Destinations h2 {
+    display: flex;
+    margin-bottom: 40px;
+    
+}
+.destination-list {
+    font-size: 2.5rem;
+    justify-content: center;
+    gap: 30px;
+}
+.destination {
+    width: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.destination img {
+    width: 100%;
+    height: auto;
+}
+.destination h3 {
+    font-size: 1.8rem;
+    margin-top: 10px;
+}
+.destination p {
+    font-size: 1rem;
+    padding: 10px;
+}
