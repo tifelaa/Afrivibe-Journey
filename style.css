@@ -39,9 +39,11 @@
     background: rgba(91, 116, 92, 0.85);
     padding: 40px;
     text-align: center;
+   
 }
 .navbar {
     padding: 10px 0;
+    
 }
 .navbar ul {
     list-style: none;
@@ -58,6 +60,15 @@
 }
 .navbar ul li a:hover {
     color: #ff7f50;
+}
+@media (max-width: 768px) {
+   .navlink {
+    flex-direction: column;
+    align-items: center;
+   } 
+   .navlink li {
+    margin: 10px;
+   }
 }
 .navbar ul li a#login {
     background: yellowgreen;
@@ -84,14 +95,22 @@
 
 
 .imagegallery {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    justify-content: center;
     padding-top: 20px;
 }
 .imagegallery img {
     width: 400px;
     box-shadow: o 4px 6px rgba(0, 0, 0, 0.1);
     object-fit: cover;
+}
+@media (max-width: 768px) {
+.imagegallery {
+    grid-template-columns: 1fr;
+}
+
 }
 
 #explore {
