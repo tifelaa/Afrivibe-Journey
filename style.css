@@ -62,24 +62,13 @@
     color: #ff7f50;
 }
 @media (max-width: 768px) {
-   .navbar {
+   .navlink {
     flex-direction: column ;
     align-items: center;
     padding: 20px;
    } 
    .navlink li {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    align-items: center;
-   }
-   .navlink a {
-    padding: 10px 20px;
-    font-size: 1.2rem;
-    width: 100%;
-    text-align: center;
-    border: 1px solid transparent;
-    border-radius: 5px;
+    margin: 10px;
    }
 }
 .navbar ul li a#login {
