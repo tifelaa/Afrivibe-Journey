@@ -63,7 +63,7 @@
 }
 @media (max-width: 768px) {
    .navlink {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
    } 
    .navlink li {
