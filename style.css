@@ -63,8 +63,9 @@
 }
 @media (max-width: 768px) {
    .navlink {
-    flex-direction: row;
+    flex-direction: column ;
     align-items: center;
+    padding: 20px;
    } 
    .navlink li {
     margin: 10px;
